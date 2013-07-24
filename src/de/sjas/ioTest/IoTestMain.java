@@ -40,7 +40,7 @@ public class IoTestMain {
 		 * READ FROM RESOURCES FOLDER LYING WITHIN THE PACKAGE TREE... remember
 		 * to change this, when moving files around. eclipse wont fix the path
 		 * automatically, like it automatically does just when refactoring
-		 * classes.
+		 * classes!
 		 */
 		MyReader reader2 = new MyReader(
 				"./src/de/sjas/ioTest/packageResources/README2.txt");
