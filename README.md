@@ -2,7 +2,7 @@ sandbox-java
 ============
 
 Code samples for common cases, strange quirks and corner cases in java.
-Or just to easier share code and implementation examples.
+Also to ease sharing code/implementation examples.
 
 Codebase is a working eclipse project.
 
