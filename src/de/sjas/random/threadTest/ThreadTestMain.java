@@ -1,4 +1,4 @@
-package de.sjas.threadTest;
+package de.sjas.random.threadTest;
 
 /**
  * Repeat this several times for fun, but previously guess where 'DONE' will

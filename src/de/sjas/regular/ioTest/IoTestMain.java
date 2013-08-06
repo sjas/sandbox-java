@@ -1,8 +1,8 @@
-package de.sjas.ioTest;
+package de.sjas.regular.ioTest;
 
 import java.io.IOException;
 
-import de.sjas.ioTest.logic.MyReader;
+import de.sjas.regular.ioTest.logic.MyReader;
 
 public class IoTestMain {
 
@@ -41,9 +41,11 @@ public class IoTestMain {
 		 * to change this, when moving files around. eclipse wont fix the path
 		 * automatically, like it automatically does just when refactoring
 		 * classes!
+		 * 
+		 * This approach uses the hardcoded file path within the project.
 		 */
 		MyReader reader2 = new MyReader(
-				"./src/de/sjas/ioTest/packageResources/README2.txt");
+				"./src/de/sjas/regular/ioTest/packageResources/README2.txt");
 		reader2.read();
 
 		System.out.println("\n\n\nDONE!");

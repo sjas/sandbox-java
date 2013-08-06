@@ -1,4 +1,4 @@
-package de.sjas.forTest;
+package de.sjas.regular.forTest;
 
 /**
  * To check if foreach works with simple arrays, and emtpy ones especially.

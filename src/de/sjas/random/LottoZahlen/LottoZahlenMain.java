@@ -1,6 +1,6 @@
-package de.sjas.lottery;
+package de.sjas.random.LottoZahlen;
 
-public class LotteryMain {
+public class LottoZahlenMain {
 
 	/**
 	 * Das ist eine Loesung mit einer do-while Schleife. Die Schleife wird

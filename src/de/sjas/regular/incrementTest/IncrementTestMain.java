@@ -1,4 +1,4 @@
-package de.sjas.incrementTest;
+package de.sjas.regular.incrementTest;
 
 public class IncrementTestMain {
 

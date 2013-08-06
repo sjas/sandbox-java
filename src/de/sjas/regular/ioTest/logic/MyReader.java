@@ -1,4 +1,4 @@
-package de.sjas.ioTest.logic;
+package de.sjas.regular.ioTest.logic;
 
 import java.io.BufferedReader;
 import java.io.File;

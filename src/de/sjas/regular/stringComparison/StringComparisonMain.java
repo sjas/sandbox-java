@@ -1,4 +1,4 @@
-package de.sjas.stringComparison;
+package de.sjas.regular.stringComparison;
 
 /**
  * Difference between identity and equality in java.

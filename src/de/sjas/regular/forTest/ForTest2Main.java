@@ -1,4 +1,4 @@
-package de.sjas.forTest;
+package de.sjas.regular.forTest;
 
 /**
  * More 'for(e)play'...

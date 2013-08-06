@@ -1,4 +1,4 @@
-package de.sjas.forTest;
+package de.sjas.regular.forTest;
 
 /**
  * test what 'for(;;)' does, should be the same as 'while(true)'...

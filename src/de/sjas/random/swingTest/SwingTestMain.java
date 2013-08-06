@@ -1,4 +1,4 @@
-package de.sjas.swingTest;
+package de.sjas.random.swingTest;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
