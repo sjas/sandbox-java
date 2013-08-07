@@ -1,12 +1,10 @@
-/**
- * 
- */
 package de.sjas.random.arrayToList;
 
 /**
  * Main class for the list implementation.
  * 
  * Singly linked, head, tail, addmethods and overridden toString.
+ * Also the conversion methods reside in here.
  * 
  * @author sjas
  */
