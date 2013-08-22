@@ -23,7 +23,6 @@ public class Koord2DImpl implements Koord2D, Cloneable {
 		return this.dim2;
 	}
 
-	// ternary operator, just another way to write if/else
 	@Override
 	public boolean equal(Koord2DImpl k) {
 		return this.dim1 == k.dim1 && this.dim2 == k.dim2;
