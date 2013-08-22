@@ -5,7 +5,7 @@ package de.sjas.regular.forTest;
  * 
  * @author sjas
  */
-public class ForTest3 {
+public class ForTest3Main {
 
 	public static void main(String[] args) {
 
