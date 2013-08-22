@@ -15,6 +15,11 @@ package de.sjas.performance.forTest;
  * Well, this could differ in other languages, as things are implementation
  * dependent.
  * 
+ * Instead of using System.currentTimeMillis(), there is also System.nanoTime()
+ * available. First is the absolute time via the system's clock, the latter is
+ * the time in nanoseconds measured by a the JVM, only works for relative time
+ * measurements.
+ * 
  * @author sjas
  */
 public class ForPerformanceTest {
@@ -25,8 +30,8 @@ public class ForPerformanceTest {
 		int arraySize = 10000000;
 		int[] testArray = new int[arraySize];
 
-		double testStartInMs;
-		double testEndInMs;
+		long testStartInMs;
+		long testEndInMs;
 
 		// the actual test runs
 
