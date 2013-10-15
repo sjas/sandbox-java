@@ -1,4 +1,4 @@
-package de.sjas.random.arrayToList;
+package de.sjas.random.arrayToList.logic;
 
 /**
  * Main class for the list implementation.

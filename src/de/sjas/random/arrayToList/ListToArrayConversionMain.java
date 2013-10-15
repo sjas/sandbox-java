@@ -1,5 +1,7 @@
 package de.sjas.random.arrayToList;
 
+import de.sjas.random.arrayToList.logic.SinglyLinkedList;
+
 /**
  * List to Array and Array to list, for fun.
  * 
@@ -33,8 +35,9 @@ public class ListToArrayConversionMain {
 		// convert list to array again and print contents again...
 		int[] roundTrippedArray = SinglyLinkedList.convertListIntoArray(sll);
 		System.out.println("Round-Trip array contents:");
-		for (int i = 0; i < roundTrippedArray.length; i++) {
-			System.out.print(roundTrippedArray[i] + " ");
+		// using foreach loop this time, to show how much more concise it is
+		for (int i : roundTrippedArray) {
+			System.out.print(i + " ");
 		}
 		System.out.println("\n");
 

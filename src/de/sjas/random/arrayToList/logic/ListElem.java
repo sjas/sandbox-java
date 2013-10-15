@@ -1,4 +1,4 @@
-package de.sjas.random.arrayToList;
+package de.sjas.random.arrayToList.logic;
 
 /**
  * Elements for the list, to make it easily fillable, it stores just int's.
