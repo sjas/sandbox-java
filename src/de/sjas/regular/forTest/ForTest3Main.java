@@ -12,9 +12,10 @@ public class ForTest3Main {
 		int arrayLength = 5;
 		String[] testArray = new String[arrayLength];
 
+		System.out
+				.println("Can java iterate over an emtpy array with foreach?\n");
+
 		for (String i : testArray) {
-			System.out
-					.println("Can java iterate over an emtpy array with foreach?");
 			System.out.println(i);
 		}
 
