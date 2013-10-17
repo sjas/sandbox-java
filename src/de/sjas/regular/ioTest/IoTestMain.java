@@ -27,7 +27,7 @@ public class IoTestMain {
 		/*
 		 * READ FROM PROJECT ROOT FOLDER
 		 */
-		MyReader reader1 = new MyReader("./rootResources/README.txt");
+		MyReader reader1 = new MyReader("./resources/README.txt");
 		reader1.read();
 
 		/*
